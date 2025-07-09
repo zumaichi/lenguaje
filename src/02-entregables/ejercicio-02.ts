@@ -5,20 +5,21 @@ const c = [7, 8, 9];
 const concat = (a: number[], b: number[]) => {
   return [...a, ...b];
 };
+console.log("Concatenar dos arrays");
 console.log(concat(a, b));
 //opcional
-const concatalternative = (a: number[], b: number[], c: number[]) => {
-  let result = [];
+const concatAlternative = (a: number[], b: number[], c: number[]) => {
+  let Concatenar = [];
   for (let i = 0; i < a.length; i++) {
-    result.push(a[i]);
+    Concatenar.push(a[i]);
   }
   for (let i = 0; i < b.length; i++) {
-    result.push(b[i]);
+    Concatenar.push(b[i]);
   }
   for (let i = 0; i < c.length; i++) {
-    result.push(c[i]);
+    Concatenar.push(c[i]);
   }
-  return result;
+  return Concatenar;
 };
 console.log("Concatenar tres arrays de forma alternativa");
-console.log(concatalternative(a, b, c));
+console.log(concatAlternative(a, b, c));

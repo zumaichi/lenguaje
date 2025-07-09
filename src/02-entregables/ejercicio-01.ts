@@ -21,8 +21,7 @@ const init = (array: number[]) => {
 console.log("mostrar los todos del array menos el último(Array.prototype)");
 console.log(init(array));
 
-
-const last = (array) => {
+const last = (array: number[]) => {
   return array[array.length - 1];
 };
 
