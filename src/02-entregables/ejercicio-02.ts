@@ -20,4 +20,5 @@ const concatalternative = (a: number[], b: number[], c: number[]) => {
   }
   return result;
 };
+console.log("Concatenar tres arrays de forma alternativa");
 console.log(concatalternative(a, b, c));
