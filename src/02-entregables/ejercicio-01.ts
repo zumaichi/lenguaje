@@ -15,5 +15,16 @@ const tail = (array: number[]) => {
 console.log("mostrar el todos del array menos el primero(rest)");
 console.log(tail(array));
 
-const init = (array: number[]) => {};
-console.log("mostrar los todos del array menos el último");
+const init = (array: number[]) => {
+  return array.slice(0, -1);
+};
+console.log("mostrar los todos del array menos el último(Array.prototype)");
+console.log(init(array));
+
+
+const last = (array) => {
+  return array[array.length - 1];
+};
+
+console.log("mostrar el último elemento del array(funcion)");
+console.log(last(array));
