@@ -20,4 +20,4 @@ const concatMultiple = (...arrays: number[][]) => {
   return Concatenar;
 };
 console.log("Concatenar arrays de indistintamente el numero de arrays");
-console.log(concatMultiple(a, b, c,d));
+console.log(concatMultiple(a, b, c, d));
