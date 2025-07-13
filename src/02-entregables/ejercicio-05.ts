@@ -13,6 +13,7 @@ class SlotMachine {
 
     if (ruleta1 && ruleta2 && ruleta3) {
       console.log(`Congratulations!!!. You won ${this.coins} coins!!`);
+      this.coins = 0;
     } else {
       console.log("Good luck next time!!");
     }
