@@ -4,7 +4,7 @@ function clone<T>(source: T): T {
   return { ...source };
 }
 
-function merge<T, U>(source: T, target: U): T & U {
+function merge<T, Y>(source: T, target: Y): T & Y {
   return { ...target, ...source };
 }
 const a = {
